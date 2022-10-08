@@ -1,0 +1,220 @@
+
+body{
+  font-family: basier_square, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+.conteiner1{
+display: flex;
+flex-direction: column;
+border-bottom:2px #ccc solid;
+}
+
+.box1{
+padding: 30px 10px 150px 10px;
+}
+.box2{
+  padding: 0 10px 20px 10px;
+}
+.box3{
+ padding: 0 10px 20px 10px;
+}
+
+.conteiner2{
+  display: flex;
+  border-bottom: 2px lightgrey solid;
+ 
+}
+.boxes1{
+  flex: 1;
+  padding:  10px;
+  }
+  .boxes2{
+    flex: 1;
+
+    padding:  10px;
+  }
+h2{
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+.replicate{
+  font-family: basier_square, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.45);
+  line-height: 2.5rem;
+  padding-left: 0.5rem;
+  padding-right: 50rem;
+  cursor: pointer;
+}
+.otherLink{  
+  font-family: basier_square, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 2.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  color: rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
+.otherLink:hover{
+color:black;
+}
+
+
+
+.button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+.button:hover{
+  background-color: grey;
+  color: black;
+}
+
+.mainLink{
+  text-decoration: underline 1.5px rgba(0, 0, 0, 0.45);
+  font-family: basier_square, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 32px;
+  line-height: 40px;
+}
+.mainLink:hover{
+  text-decoration: underline 1.5px lightgrey;
+}
+
+.slash{
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 32px;
+  font-family: basier_square, Helvetica, sans-serif;
+}
+.someWords{
+  font-family: basier_square, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.public{
+  font-family: basier_square, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.05);
+border:none;
+border-radius: 30px;
+padding: 5px 10px 10px;
+
+}
+
+
+.runs{
+  margin-left:30% ;
+background-color: white;
+font-size: 16px;
+font-family: basier_square, Helvetica, sans-serif;
+border-radius: 30px;
+border: 2px lightgrey solid;
+padding: 5px 5px 5px 10px;
+}
+
+.gitHub, .license{
+  color: rgba(0, 0, 0, 0.75);
+text-decoration: none;
+  background-color: white;
+  font-size: 16px;
+  font-family: basier_square, Helvetica, sans-serif;
+  border-radius: 30px;
+  border: 2px black solid;
+  padding: 15px 10px 5px ;
+}
+  .gitHub:hover{
+    background-color: grey;
+  color: white;
+  }
+  .license:hover{
+    background-color: grey;
+    color: white;
+  }
+  .owerview{
+    color: rgba(0, 0, 0, 0.75);
+  background-color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: basier_square, Helvetica, sans-serif;
+  padding: 10px 5px 5px 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+    border-bottom-color: white;
+    padding: 15px;
+  }
+  .owerview:hover{
+    border-bottom-color: grey;
+  }
+.elementInput{
+padding: 8px 0;}
+
+
+.label{
+  font-family: basier_square, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.form-input{
+  font-family: basier_square_mono, monospace;
+  line-height: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 0.375rem;
+  font-size: 14px;
+  width: 90%;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: none;
+}
+
+.checkbox{
+height: 16px;
+width: 16px;}
+
+.texparea{
+  font-family: basier_square_mono, monospace;
+  border:none;
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 90%;
+}
+
+.buttonTweak{
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 15px 15px 10px 10px;
+}
+.buttonTweak:hover{
+  background-color: grey;
+  color:white;
+}
+
+.video{
+  width: auto; height: auto;
+  margin: 20px 0;
+  max-width: 512px;}
+
+.showLogs{
+margin-top: 20px;
+}
+
+ .footer {
+
+    text-align: center;
+  }
+ 
+  .footer-text {
+    color: #414753;
+    font-size: 14px;
+  }
